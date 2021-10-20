@@ -18,5 +18,5 @@ else:
 ```
 
 * 문자열 함수
-  * string.count(확인핳 문자)
+  * string.count(확인한 문자)
 
