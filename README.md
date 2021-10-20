@@ -17,5 +17,6 @@ else:
     return max_num
 ```
 
-
+* 문자열 함수
+  * string.count(확인핳 문자)
 
