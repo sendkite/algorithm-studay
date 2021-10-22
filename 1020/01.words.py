@@ -6,6 +6,10 @@
 # 첫째 줄에 이 단어에서 가장 많이 사용된 알파벳을 대문자로 출력한다.
 # 단, 가장 많이 사용된 알파벳이 여러 개 존재하는 경우에는 ?를 출력한다.
 
+dic1 = {'a':5, 'b':3}
+dic1.get()
+
+
 
 word = input().upper()
 print(word)
@@ -15,7 +19,6 @@ word_list = list(set(word))
 cnt = []
 for i in word_list:
     cnt.append(word.count(i))
-
 if cnt.count(max(cnt)) > 1:
     print("?")
 
