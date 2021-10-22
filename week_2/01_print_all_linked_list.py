@@ -38,3 +38,4 @@ linked_list = LinkedList(3)
 linked_list.append(4)
 linked_list.append(5)
 linked_list.print_all()
+# 이어하기
